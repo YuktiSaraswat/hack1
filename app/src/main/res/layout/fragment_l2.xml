@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".L2">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Land Hazard Zonation"
+        android:textSize="20sp" />
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+        </LinearLayout>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+    A general landslide hazard map of India shown here marks the areas of different hazard zones in various states of India; one may note that Himalayas of Northwest and Northeast India and the Western Ghats are two regions of high vulnerability and are landslide prone.
+
+
+    NDMA guidelines are being followed for Landslide Hazard Zonation (LHZ) maps at 1: 50,000 scale and progressively larger scales for specific areas. National Remote Sensing Center (NRSC),Department of Science and Technology (DST), Council of Scientific and Industrial Research (CSIR), Indian Institute of India (IITs), Universities have done tremendous work in this regard. The NRSC Atlas on selected corridors of Uttarakhand and Himachal Pradesh has been a very useful Atlas (Please see NRSC work on Landslides). DST has funded more than 30 projects spread over India by various academic institutions the reports of which can be requested from DST (NRDMA).
+
+    An example of LHZ map at 1: 50,000 scale from a part of Himalayas in Chamoli district (Pachauri, 1992) shown here is based upon several geological, geotechnical parameters. Such maps are being refined and relooked for higher level of verification and acceptability for public use. Approximately 15 % of the Indian landmass has to be covered by such maps at 1: 50,000 scale or higher to classify slopes in various levels of hazards. Geographical Information System (GIS) and Remote Sensing applications are being used through NRSC under a special group of GIS for LHZ at NDMA through database collection from all concerned departments and being stored through good offices of GIS and other agencies, CSIR labs, DST etc as a parallel theme on landslide mitigation.
+    "
+    android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uttarakhandlandslide" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

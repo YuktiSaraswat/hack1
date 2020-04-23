@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C3">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do's and Dont's    \n"></TextView>
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+        </LinearLayout>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Before the Cyclone season:
+\n"></TextView>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+
+Check the house; secure loose tiles and carry out repairs of doors and windows
+\nRemove dead branches or dying trees close to the house; anchor removable objects such as lumber piles, loose tin sheets, loose bricks, garbage cans, sign-boards etc. which can fly in strong winds
+\nKeep some wooden boards ready so that glass windows can be boarded if needed
+\nKeep a hurricane lantern filled with kerosene, battery operated torches and enough dry cells
+\nDemolish condemned buildings
+\nKeep some extra batteries for transistors
+\nKeep some dry non-perishable food always ready for use in emergency
+\nNecessary actions
+
+\n\nThe actions that need to be taken in the event of a cyclone threat can broadly be divided into :
+
+\n\nImmediately before the cyclone season
+\nWhen cyclone alerts and warnings are communicated
+\nWhen evacuations are advised
+\nWhen the cyclone has crossed the coast
+\nWhen the Cyclone starts
+
+\n\nListen to the radio (All India Radio stations give weather warnings).
+\nKeep monitoring the warnings. This will help you prepare for a cyclone emergency.
+\nPass the information to others.
+\nIgnore rumours and do not spread them; this will help to avoid panic situations.
+\nBelieve in the official information
+\nWhen a cyclone alert is on for your area continue normal working but stay alert to the radio warnings.
+\nStay alert for the next 24 hours as a cyclone alert means that the danger is within 24 hours.
+\n\nWhen your area is under cyclone warning get away from low-lying beaches or other low-lying areas close to the coast
+
+\nLeave early before your way to high ground or shelter gets flooded
+\nDo not delay and run the risk of being marooned
+\nIf your house is securely built on high ground take shelter in the safe part of the house. However, if asked to evacuate do not hesitate to leave the place.
+\nBoard up glass windows or put storm shutters in place.
+\nProvide strong suitable support for outside doors.
+\nIf you do not have wooden boards handy, paste paper strips on glasses to prevent splinters. However, this may not avoid breaking windows.
+\nGet extra food, which can be eaten without cooking. Store extra drinking water in suitably covered vessels.
+\nIf you have to evacuate the house move your valuable articles to upper floors to minimize flood damage.
+\nEnsure that your hurricane lantern, torches or other emergency lights are in working condition and keep them handy.
+\nSmall and loose things, which can fly in strong winds, should be stored safely in a room.
+\nBe sure that a window and door can be opened only on the side opposite to the one facing the wind.
+\nMake provision for children and adults requiring special diet.
+\nIf the centre of the cyclone is passing directly over your house there will be a lull in the wind and rain lasting for half an hour or so. During this time do not go out; because immediately after that, very strong winds will blow from the opposite direction.
+\nSwitch off the electrical mains in your house.
+\nRemain calm.
+\n\nWhen Evacuation is instructed
+
+\nPack essentials for yourself and your family to last a few days. These should include medicines, special food for babies and children or elders.
+\nHead for the proper shelter or evacuation points indicated for your area.
+\nDo not worry about your property
+\nAt the shelter follow instructions of the person in charge.
+\nRemain in the shelter until you are informed to leave
+\n\nPost-cyclone measures
+
+\nYou should remain in the shelter until informed that you can return to your home.
+\nYou must get inoculated against diseases immediately.
+\nStrictly avoid any loose and dangling wires from lamp posts.
+\nIf you have to drive, do drive carefully.
+\nClear debris from your premises immediately.
+\nReport the correct losses to appropriate authorities.
+">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+    </FrameLayout>

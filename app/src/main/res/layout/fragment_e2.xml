@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".E2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do's and Dont's\n\nWhat to Do Before an Earthquake"
+                android:textSize="18sp" />
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+        </LinearLayout>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+Repair deep plaster cracks in ceilings and foundations. Get expert advice if there are signs of structural defects.
+\nAnchor overhead lighting fixtures to the ceiling.
+\nFollow BIS codes relevant to your area for building standards
+\nFasten shelves securely to walls.
+\nPlace large or heavy objects on lower shelves.
+\nStore breakable items such as bottled foods, glass, and china in low, closed cabinets with latches.
+\nHang heavy items such as pictures and mirrors away from beds, settees, and anywhere that people sit.
+\nBrace overhead light and fan fixtures.
+\nRepair defective electrical wiring and leaky gas connections. These are potential fire risks.
+\nSecure water heaters, LPG cylinders etc., by strapping them to the walls or bolting to the floor.
+\nStore weed killers, pesticides, and flammable products securely in closed cabinets with latches and on bottom shelves.
+\nIdentify safe places indoors and outdoors.
+\nUnder strong dining table, bed
+\nAgainst an inside wall
+\nAway from where glass could shatter around windows, mirrors, pictures, or where heavy bookcases or other heavy furniture could fall over
+\nIn the open, away from buildings, trees, telephone and electrical lines, flyovers and bridges
+\nKnow emergency telephone numbers (such as those of doctors, hospitals, the police, etc)
+\nEducate yourself and family members
+\nAwareness Generation Resources for Earthquake Diasaster Management
+\nDisaster(Earthquake) Resistant Construction Practice
+\nTechno Legal Regime for Safe Construction Practice (Model Amendment in Town and Country Planning Legislations, Regulation for Land Use Zoning and Building Byelaws for Structural Safety)
+\nPast Programmes/Projects, Resource Materials on Earthquake Risk Management.
+\nHave a disaster emergency kit ready
+\nBattery operated torch with extra batteries
+\nBattery operated radio
+\nFirst aid kit and manual
+\nEmergency food (dry items) and water (packed and sealed)
+\nCandles and matches in a waterproof container
+\nKnife
+\nChlorine tablets or powdered water purifiers
+\nCan opener.
+\nEssential medicines
+\nCash and credit cards
+\nThick ropes and cords
+\nSturdy shoes
+\nDevelop an emergency communication plan
+\nIn case family members are separated from one another during an earthquake (a real possibility during the day when adults are at work and children are at school), develop a plan for reuniting after the disaster.
+\nAsk an out-of-state relative or friend to serve as the 'family contact' after the disaster; it is often easier to call long distance. Make sure everyone in the family knows the name, address, and phone number of the contact person.
+\nHelp your community get ready
+\nPublish a special section in your local newspaper with emergency information on earthquakes. Localize the information by printing the phone numbers of local emergency services offices and hospitals.
+\nConduct week-long series on locating hazards in the home.
+\nWork with local emergency services and officials to prepare special reports for people with mobility impairment on what to do during an earthquake.
+\nProvide tips on conducting earthquake drills in the home.
+\nInterview representatives of the gas, electric, and water companies about shutting off utilities.
+\nWork together in your community to apply your knowledge to building codes, retrofitting programmes, hazard hunts, and neighborhood and family emergency plans.
+"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nWhat to Do During an Earthquake"/>
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nIf indoors:
+\nDROP to the ground; take COVER by getting under a sturdy table or other piece of furniture; and HOLD ON until the shaking stops. If there is no a table or desk near you, cover your face and head with your arms and crouch in an inside corner of the building.
+\nProtect yourself by staying under the lintel of an inner door, in the corner of a room, under a table or even under a bed.
+\nStay away from glass, windows, outside doors and walls, and anything that could fall, (such as lighting fixtures or furniture).
+\nStay in bed if you are there when the earthquake strikes. Hold on and protect your head with a pillow, unless you are under a heavy light fixture that could fall. In that case, move to the nearest safe place.
+\nUse a doorway for shelter only if it is in close proximity to you and if you know it is a strongly supported, load bearing doorway.
+\nStay inside until the shaking stops and it is safe to go outside. Research has shown that most injuries occur when people inside buildings attempt to move to a different location inside the building or try to leave.
+\nBe aware that the electricity may go out or the sprinkler systems or fire alarms may turn on.
+\n\nIf outdoors:
+\nDo not move from where you are. However, move away from buildings, trees, streetlights, and utility wires.
+\nIf you are in open space, stay there until the shaking stops. The greatest danger exists directly outside buildings; at exits; and alongside exterior walls. Most earthquake-related casualties result from collapsing walls, flying glass, and falling objects.
+\n\nIf in a moving vehicle:
+\nStop as quickly as safety permits and stay in the vehicle. Avoid stopping near or under buildings, trees, overpasses, and utility wires.
+\nProceed cautiously once the earthquake has stopped. Avoid roads, bridges, or ramps that might have been damaged by the earthquake.
+\nIf trapped under debris:
+\nDo not light a match.
+\nDo not move about or kick up dust.
+\nCover your mouth with a handkerchief or clothing.
+\nTap on a pipe or wall so rescuers can locate you. Use a whistle if one is available. Shout only as a last resort. Shouting can cause you to inhale dangerous amounts of dust. "/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

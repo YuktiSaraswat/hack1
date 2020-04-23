@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CH2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do's and Dont's\n\n"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precautions to be taken during and after the Chemical (Industrial) Accidents
+"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+
+\nDo not panic, evacuate calmly and quickly perpendicular to wind direction through the designated escape route
+\nKeep a wet handkerchief or piece of cloth/ sari on face during evacuation
+\nKeep the sick, elderly, weak, handicapped and other people who are unable to evacuate inside house and close all the doors and windows tightly.
+\nDo not consume the uncovered food/ water etc open to the air, drink only from bottle
+\nChange into fresh clothing after reaching safe place/ shelter, and wish hands properly
+\nInform Fire and Emergency Services, Police and medical services from safe location by calling 101, 100 and 108 respectively.
+\nListen to PA (Public Addressal) System of the plant/ factory, local radio/ TV channels for advice from district administration/fire/health/police and other concerned authorities
+\nProvide correct and accurate information to government official.
+\nInform others on occurrence of event at public gathering places (like school, shopping centre, theatre etc.).
+\nDon’t pay attention to the rumours and don’t spread rumours."
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\nGeneral Precautions During Normal Time"/>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDo not smoke, lit fire or spark in the identified hazardous area
+\nSensitize the community living near the industrial units and they should be more vigilant about the nature of industrial units and associated risks.
+\nKeep the contact numbers of nearest hazardous industry, fire station, police station, control room, health services and district control room, for emergency use.
+\nAvoid housing near the industries producing or processing the hazardous chemicals, if possible.
+\nParticipate in all the capacity building programmes organized by the government/ voluntary organizations / industrial units.
+\nTake part in preparing disaster management plan for the community and identify safe shelter along with safe and easy access routes.
+\nPrepare a family disaster management plan and explain it to all the family members.
+\nMake the family/ neighbours aware of the basic characteristics of various poisonous/ hazardous chemicals and the first aid required to treat them.
+\nAdequate number of personal protective equipments needs to be made available, to deal with emergency situation.
+\nPrepare an emergency kit of items and essentials in the house, including medicines, documents and valuables.
+"/></LinearLayout>
+    </ScrollView>
+</FrameLayout>

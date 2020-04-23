@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".L1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <ImageButton
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic1" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="India has the highest mountain chain on earth, the Himalayas, which are formed due to collision of Indian and Eurasian plate, the northward movement of the Indian plate towards China causes continuous stress on the rocks rendering them friable, weak and prone to landslides and earthquakes. The slow motion of the Indian crust, about 5 cm/year accumulates stress to which natural disasters are attributed. Some landslides make unique, and unparalleled catastrophes. Landslides and avalanches are among the major hydro-geological hazards that affect large parts of India besides the Himalayas, the Northeastern hill ranges, the Western Ghats, the Nilgiris, the Eastern Ghats and the Vindhyans, in that order, covering about 15 % of the landmass. The Himalayas alone count for landslides of every fame, name and description- big and small, quick and creeping, ancient and new. The Northeastern region is badly affected by landslide problems of a bewildering variety. Landslides in the Darjeeling district of West Bengal as also those in Sikkim, Mizoram, Tripura, Meghalaya, Assam, Nagaland and Arunachal Pradesh pose chronic problems, causing recurring economic losses worth billions of rupees. A different variety of landslides, characterized by a lateritic cap, pose constant threat to the Western Ghats in the South, along the steep slopes overlooking the Konkan coast besides Nilgiris, which is highly landslide prone.
+
+\n\nSome spectacular events of tragedies are reported as Varnavat landslide, Uttarkashi District, Malpha landslide Pithoragarh district, Okhimath landslide in Chamoli district, UK and Paglajhora in Darjeeling district as well as Sikkim, Aizawl sports complex, Mizoram.These are some of the more recent examples of landslides. The problem therefore needs to be tackled for mitigation and management for which hazard zones have to be identified and specific slides to be stabilized and managed in addition to monitoring and early warning systems to be placed at selected sites. The Photograph of Okhimath landslide which formed a lake in Madhyamaheshwerganga, Rudraprayag district.
+\n\n"/>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

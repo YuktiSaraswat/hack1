@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".L3">
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Do's and Dont's  "
+        android:textSize="20sp" />
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="We cannot stop disaster but minimize its impact by preparing ourselves better for landslides. The Government of India has made plans to identify the areas where landslides occur repeatedly. This is achieved through Landslide Hazard Zonation (LHZ) maps which shows or demarcates areas by different colors. NDMA has published a guideline on Landslides and Snow Avalanches as given on its website. Following are the precautionary measures for landslides in the form of do's and dont's as given below:
+
+    \nMove away from landslide path or downstream valleys quickly without wasting time.
+    \nInspect drains for - litter, leaves, plastic bags, rubble etc.
+    \nKeep the weep holes open.
+    \nGrow more trees that can hold the soil through roots,
+    \nIdentify areas of rock fall and subsidence of buildings, cracks that indicate landslides and move to safer areas. Even muddy river waters indicate landslides upstream.
+    \nNotice such signals and contact the nearest Tehsil or District Head Quarters.
+    \nEnsure that toe of slope is not cut, remains protected, don't uproot trees unless re-vegetation is planned.
+    \nListen for unusual sounds such as trees cracking or boulders knocking together.
+    \nStay alert, awake and active (3A's) during the impact or probability of impact.
+    \nLocate and go to shelters,
+    \nTry to stay with your family and companions.
+    \nCheck for injured and trapped persons.
+    \nMark path of tracking so that you can't be lost in middle of the forest.
+    \nKnow how to give signs or how to communicate during emergency time to flying helicopters and rescue team.
+    \n\nDon'ts
+
+    \nTry to avoid construction and staying in vulnerable areas.
+    \nDo not panic and loose energy by crying.
+    \nDo not touch or walk over loose material and electrical wiring or pole.
+    \nDo not built houses near steep slopes and near drainage path.
+    \nDo not drink contaminated water directly from rivers, springs, wells but rain water if collected directly without is fine.
+    \nDo not move an injured person without rendering first aid unless the casualty is in immediate danger.
+    " />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

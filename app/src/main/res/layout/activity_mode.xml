@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mode"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#123456">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:text="Select Mode of Payment"/>
+    <Button
+        android:id="@+id/button_paypal"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:onClick="paypal"
+        android:background="#04ea00"
+        android:text="Paypal"/>
+    <Button
+        android:id="@+id/button_paytm"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="paytm"
+        android:background="#04ea00"
+        android:text="Paytm"/>
+    <Button
+        android:id="@+id/button_credit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="credit"
+        android:layout_marginTop="20dp"
+        android:background="#04ea00"
+        android:text="Credit Card"/>
+</LinearLayout>

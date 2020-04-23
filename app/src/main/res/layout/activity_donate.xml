@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donate">
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="727dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="What would you like to donate?"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="46dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Money"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="items"
+                android:text="Other Items"
+                tools:layout_editor_absoluteX="225dp"
+                tools:layout_editor_absoluteY="113dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:text="Name"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="203dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:text="E-mail Id"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text=""
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="203dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:text="Item"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="203dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="114dp"
+                android:layout_height="64dp"
+                android:text="Quantity"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="260dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="152dp"
+                android:layout_height="51dp"
+                android:text="Current Contact"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="513dp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="182dp"
+                tools:layout_editor_absoluteY="506dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="145dp"
+                android:layout_height="45dp"
+                android:text="State"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="450dp" />
+
+            <Spinner
+                android:id="@+id/s_state"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="181dp"
+                tools:layout_editor_absoluteY="442dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="145dp"
+                android:layout_height="45dp"
+                android:text="City"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="450dp" />
+
+            <Spinner
+                android:id="@+id/s_city"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="181dp"
+                tools:layout_editor_absoluteY="442dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="145dp"
+                android:layout_height="45dp"
+                android:text="New Address"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="450dp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginTop="10dp"
+                android:text=""
+                tools:layout_editor_absoluteX="181dp"
+                tools:layout_editor_absoluteY="442dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="148dp"
+            android:layout_height="45dp"
+            android:text="SUBMIT"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="609dp" />
+    </LinearLayout>
+</ScrollView>
+

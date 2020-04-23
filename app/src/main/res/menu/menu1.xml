@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/M1"
+        android:icon="@drawable/ic_map"
+        android:title="Map"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/M2"
+        android:title="Home"
+        app:showAsAction="never"/>
+    <item android:id="@+id/M3"
+        android:title="Public Awareness"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/M3.1"
+                android:title="Natural Disaster"
+                app:showAsAction="never">
+                <menu>
+                    <item android:id="@+id/M3.1.1"
+                        android:title="Earthquake"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.1.2"
+                        android:title="Floods"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.1.3"
+                        android:title="Landslides"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.1.4"
+                        android:title="Cloudburst"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.1.5"
+                        android:title="Avalanche"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.1.6"
+                        android:title="Flash Floods"
+                        app:showAsAction="never"/>
+
+                </menu>
+            </item>
+            <item android:id="@+id/M3.2"
+                android:title="Manmade Disaster"
+                app:showAsAction="never">
+                <menu>
+                    <item android:id="@+id/M3.2.1"
+                        android:title="Chemical Disaster"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.2.2"
+                        android:title="Nuclear Disaster"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/M3.2.3"
+                        android:title="Biological Disaster"
+                        app:showAsAction="never"/>
+
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/M4"
+        android:title="Act and Guidelines"
+        app:showAsAction="never"/>
+    <item android:id="@+id/M5"
+        android:title="Contact"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".E4">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What to Do After an Earthquake ?  \n\nDo's"
+                android:textSize="20sp" />
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+        </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)If any damage is suspected, turn the system off from the main valve or, switch.\n2)Clean up household chemical spills, toxic and flammable materials to avoid any chain of unwanted events.\n3)Gather information and necessary instructions from battery operated radios.\n4)Obey Public safety precautions.\n5)Leave a message stating where you are going if you must evacuate your residence.\n6)Take your earthquake survival kit with you.\n7)It should contain all necessary items for your protection and comfort.\n8)Check your water and electrical lines for defects.\n" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dont's"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)Do not fill the overhead tank completely.\n2)Do not carry out haphazard repairs.\n3)Repairs should be done only under the supervision of a structural engineer.\n4)Do not put additional supports without the guidance of an experienced/qualified structural engineer.
+\n5)Do not use the lift until it has been checked and certified by thelift company." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

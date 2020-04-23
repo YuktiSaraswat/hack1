@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FF5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Emergency Kit\n\n"/>
+        <ImageButton
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic1" />
+    </LinearLayout>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1)Battery operated torch\n2)Extra batteries\n3)Battery operated radio
+\n4)First aid kit and essential medicines
+\n5)Emergency food (dry items) and water (packed and sealed)
+\n6)Candles and matches in a waterproof container
+\n7)Knife
+\n8)Chlorine tablets or powdered water
+\n9)Important documents (Ration card, Voter ID card, Aadhar Card etc.)
+\n10)Cash, Aadhar Card and Ration Card
+\n11)Thick ropes and cords
+\n12)Shoes " />
+    </LinearLayout>
+</FrameLayout>

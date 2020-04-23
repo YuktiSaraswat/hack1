@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <ImageButton
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic1" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The lives of people buried by an avalanche are in immediate peril. They must be rescued as quickly as possible.
+
+\nWhen engaging in winter sports outside controlled areas\n\nIf you are buried:
+
+\nUse your hands to protect airways.
+\nStay calm.
+\nFree yourself if possible.
+\n\nIf you are not caught in the avalanche:
+
+\nPay attention to your own safety and be aware of the danger of secondary avalanches.
+\nRaise the alarm by telephone (REGA air rescue 1414, paramedic assistance 144, emergency services 112).
+\nCompanion rescue: look for signs and listen for sounds of buried victims, and establish their location with an avalanche transceiver.
+\nDig out buried victims as quickly as possible.
+\nAdminister first aid: take life-saving immediate action according to BLS (Basic Life Support), protect injured victims against hypothermia.
+\n\nOn transportation routes:
+\nPay attention to your own safety and be aware of the danger of secondary avalanches.
+\nStop outside the danger area.
+\nRaise the alarm by telephone (police 117, paramedic assistance 144, REGA air rescue 1414, emergency services 112).
+\nFollow instructions issued by the emergency services.
+\nIf possible, establish location of buried victims, dig them out and administer first aid.
+\n\nIn settlements:
+\nPay attention to your own safety and be aware of the danger of secondary avalanches. Be aware of the danger of damaged buildings collapsing.
+\nRaise the alarm by telephone (police 117, paramedic assistance 144, emergency services 112, local avalanche service).
+\nFollow instructions issued by the emergency services.
+\nTake action to minimise consequential damage (e.g. caused by melt water).
+\nReport damage to the buildings and contents insurers as soon as possible.
+\nMake a record of the damage if possible.
+\nDo not remove damaged parts of buildings, fixtures, fittings or furniture until they have been inspected by the insurance experts (except for immediate action to prevent consequential damage)." />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

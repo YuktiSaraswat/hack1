@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact"
+    android:orientation="vertical"
+    android:background="#123456"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textcontact"
+        android:text="8888888888"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="114dp"
+            android:layout_height="64dp"
+            android:text="NDMA:"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:text="www.ndma.gov.in"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="260dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="114dp"
+            android:layout_height="64dp"
+            android:text="NIDM:"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:ems="10"
+            android:text="www.nidm.gov.in"
+            android:textSize="20dp"
+            android:paddingLeft="0dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="260dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="NDM India:"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:ems="10"
+            android:paddingLeft="5dp"
+            android:text="www.ndmindia.nic.in"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="260dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="114dp"
+            android:layout_height="64dp"
+            android:text="WHO:"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:ems="10"
+            android:text="www.who.int"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="260dp" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:autoLink="phone"
+        android:clickable="true"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_green_light"
+        android:text="For Helpline Dial Number 000-000-000"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+</LinearLayout>
+

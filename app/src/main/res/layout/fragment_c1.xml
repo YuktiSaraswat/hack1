@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+            <ImageButton
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mic1" />
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cyclones are caused by atmospheric disturbances around a low-pressure area distinguished by swift and often destructive air circulation. Cyclones are usually accompanied by violent storms and bad weather. The air circulates inward in an anticlockwise direction in the Northern hemisphere and clockwise in the Southern hemisphere. Cyclones are classified as: (i) extra tropical cyclones (also called temperate cyclones); and (ii) tropical cyclones. The word Cyclone is derived from the Greek word Cyclos meaning the coils of a snake. It was coined by Henry Peddington because the tropical storms in the Bay of Bengal and the Arabian Sea appear like coiled serpents of the sea.
+
+\n\nClassifications
+\nCyclones are classified as extra tropical cyclones (also called temperate cyclones); and tropical cyclones.
+
+\n\nThe World Meteorological Organisation (WMO, 1976) uses the term 'Tropical Cyclone’ to cover weather systems in which winds exceed ‘Gale Force’ (minimum of 34 knots or 63 kph). Tropical cyclones are the progeny of ocean and atmosphere, powered by the heat from the sea; and driven by easterly trades and temperate westerlies, high planetary winds and their own fierce energy.
+
+\n\nIn India, cyclones are classified by:
+
+\nStrength of associated winds,
+\nStorm surges
+\nExceptional rainfall occurrences.
+\nExtra tropical cyclones occur in temperate zones and high latitude regions, though they are known to originate in the Polar Regions.
+
+\nCyclones that developin the regions between the Tropics of Capricorn and Cancer are called tropical cyclones. Tropical cyclones are large-scale weather systems developing over tropical or subtropical waters, where they get organized into surface wind circulation.
+
+\n\nWorldwide terminology
+
+\nCyclones are given many names in different regions of the world – They are known as typhoons in the China Sea and Pacific Ocean; hurricanes in the West Indian islands in the Caribbean Sea and Atlantic Ocean; tornados in the Guinea lands of West Africa and southern USA.; willy-willies in north-western Australia and tropical cyclones in the Indian Ocean.
+
+\n\nIndian Meteorological Department
+
+\nThe criteria below has been formulated by the Indian Meteorological Department (IMD), which classifies the low pressure systems in the Bay of Bengal and the Arabian Sea on the basis of capacity to damage, which is adopted by the WMO.
+
+\nType of Disturbances Wind Speed in Km/h Wind Speed in Knots
+\nLow Pressure Less than 31 Less than 17
+\nDepression 31-49 17-27
+\nDeep Depression 49-61 27-33
+\nCyclonic Storm 61-88 33-47
+\nSevere Cyclonic Storm 88-117 47-63
+\nSuper Cyclone More than 221 More than 120
+\n1 knot - 1.85 km per hour
+\nCyclones are classified into five different levels on the basis of wind speed. They are further divided into the following categories according to their capacity to cause damage:-
+
+\n\nCyclone Category Wind Speed in Km/h Damage Capacity
+\n01 120-150 Minimal
+\n02 150-180 Moderate
+\n03 180-210 Extensive
+\n04 210-250 Extreme
+\n05 250 and above Catastrophic
+\nStorm surges (tidal waves) are defined as the rise in sea level above the normally predicted astronomical tide. Major factors include:
+
+\nA fall in the atmospheric pressure over the sea surface
+\nEffect of the wind
+\nInfluence of the sea bed
+\nA funnelling effect
+\nThe angle and speed at which the storm approaches the coast
+\nThe tides
+\nThe very high specific humidity condenses into exceptionally large raindrops and giant cumulus clouds, resulting in high precipitation rates. When a cyclone makes landfall, rain rapidly saturates the catchment areas and the rapid runoff may extensively flood the usual water sources or create new ones.
+
+\n\nHow Cyclones are formed?
+
+\nThe development cycle of tropical cyclones may be divided into three stages:
+
+\nFormation and Initial Development Stage The formation and initial development of a cyclonic storm depends upon various conditions. These are:
+
+\nA warm sea (a temperature in excess of 26 degrees Celsius to a depth of 60 m) with abundant and turbulent transfer of water vapour to the overlying atmosphere by evaporation.
+\nAtmospheric instability encouraging formation of massive vertical cumulus clouds due to convection with condensation of rising air above ocean surface.
+\nMature Tropical Cyclones When a tropical storm intensifies, the air rises in vigorous thunderstorms and tends to spread out horizontally at the tropopause level. Once air spreads out, a positive perturbation pressure at high levels is produced, which accelerates the downward motion of air due to convection. With the inducement of subsidence, air warms up by compression and a warm ‘Eye’ is generated. Generally, the ‘Eye’ of the storms has three basic shapes:(i) circular; (ii) concentric; and (iii) elliptical.The main physical feature of a mature tropical cyclone in the Indian Ocean is a concentric pattern of highly turbulent giant cumulus thundercloud bands.
+
+\n\nModification and Decay
+
+\nA tropical cyclone begins to weaken in terms of its central low pressure, internal warmth and extremely high speeds, as soon as its source of warm moist air begins to ebb, or is abruptly cut off. This happens after its landfall or when it passes over cold waters. The weakening of a cyclone does not mean that the danger to life and property is over.
+
+\n\nIndian Context
+
+\nThe Indian subcontinent is one of the worst affected regions in the world. The subcontinent with a long coastline of 8041 kilometres is exposed to nearly 10 per cent of the world’s tropical cyclones. Of these, the majority of them have their initial genesis over the Bay of Bengal and strike the East coast of India. On an average, five to six tropical cyclones form every year, of which two or three could be severe. More cyclones occur in the Bay of Bengal than the Arabian Sea and the ratio is approximately 4:1. Cyclones occur frequently on both the coasts (the West coast - Arabian Sea; and the East coast - Bay of Bengal). An analysis of the frequency of cyclones on the East and West coasts of India between 1891 and 1990 shows that nearly 262 cyclones occurred (92 of these severe) in a 50 km wide strip above the East coast. Less severe cyclonic activity has been noticed on the West coast, where 33 cyclones occurred the same period, out of which 19 of were severe.
+
+\nTropical cyclones occur in the months of May-June and October-November. Cyclones of severe intensity and frequency in the North Indian Ocean are bi-modal in character, with their primary peak in November and secondary peak in May. The disaster potential is particularly high during landfall in the North Indian Ocean (Bay of Bengal and the Arabian Sea) due to the accompanying destructive wind, storm surges and torrential rainfall. Of these, storm surges cause the most damage as sea water inundates low lying areas of coastal regions and causes heavy floods, erodes beaches and embankments, destroys vegetation and reduces soil fertility.
+
+\nCyclones vary in diameter from 50 to 320 km but their effects dominate thousands of square kilometers of ocean surface and the lower atmosphere. The perimeter may measure 1,000 km but the powerhouse is located within the 100-km radius. Nearer the Eye, winds may hit at a speed of 320 km. Thus, tropical cyclones, characterized by destructive winds, torrential rainfall and storm surges disrupt normal life with the accompanying phenomena of floods due to the exceptional level of rainfall and storm surge inundation into inland areas. Cyclones are characterized by their devastating potential to damage structures, viz. houses; lifeline infrastructure-power and communication towers; hospitals; food storage facilities; roads, bridges and culverts; cropss etc. The most fatalities come from storm surges and the torrential rain flooding the lowland areas of coastal territories.
+
+\n\\nCyclone Prone Districts
+
+\nEnvironment and Social management Framework - The National Cyclone Risk Management Project (NCRMP).
+"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    </FrameLayout>

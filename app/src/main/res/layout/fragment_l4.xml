@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".L4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+    <ImageButton
+        android:id="@+id/i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_mic1" />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Remain calm and be alert and awake, listen to warnings of heavy and prolonged period of rainfall from weather station, if your home is located below a debris covered area move away to safer place, listen to sounds of rock fall, moving debris and cracking of trees, or cracks in ground or any movement. Keep a battery operated ready for the night.
+
+\nCall and help rescue teams, keep drinking water containers, first aid kit and essential medicines and avoid entering damaged houses.
+
+\nWatch for flooding if close to river, help others who need help especially elderly people, children and women, seek advice from local authorities for rebuilding damaged houses, roads etc.
+
+\nReport any damage of roads, power and telephone lines to concerned authorities." />
+    </LinearLayout>
+
+</FrameLayout>

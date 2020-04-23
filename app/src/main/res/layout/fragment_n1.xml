@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".N1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nuclear and Radiological Disaster
+\nThe growth in the application of nuclear science and technology in the fields of power generation, medicine, industry, agriculture, research and defence has led to an increase in the risk of occurrence of Nuclear and Radiological emergencies.
+
+\nIndia has traditionally been vulnerable to natural disasters on account of its unique geo climatic conditions and it has, of late, like all other countries in the world, become equally vulnerable to various man-made disasters.
+
+\nAny radiation incident resulting in or having a potential to result in exposure and/or contamination of the workers or the public in excess of the respective permissible limits can lead to a nuclear/radiological emergency.
+
+\nSad memories of the use of nuclear weapons dropped on Hiroshima and Nagasaki, and the wide publicity given to the reactor accidents at Three Mile Island (TMI) in USA and Chernobyl in erstwhile USSR, have strongly influenced the public perception of any nuclear emergency or disaster to be most often linked, erroneously though, to only these events. Even though such situations may not easily be repeated, one must be prepared to face nuclear/radiological emergencies of lower magnitudes and ensure that the impact of such an emergency (which,for a given magnitude, is likely to be much greater today because of higher population densities coupled with an enhanced urban infrastructure due to economic prosperity) is always kept under control.
+
+\nFor improving the quality of life in society, India has embarked upon a large programme of using nuclear energy for generation of electricity. As on date, India has 17 power reactors and five research reactors in operation along with six power reactors under construction. It is also planned to explore setting up Thorium based reactors to meet its ever increasing energy needs. Further, the country utilises adioisotopes in a variety of applications in the non-power sector, viz., in the field of industry, agriculture, medicine, research, etc. Due to the inherent safety culture, the best safety practices and standards followed in these applications and effective regulation by the Atomic Energy Regulatory Board, the radiation dose to which the persons working in nuclear/radiation facilities are exposed to, is well within the permissible limits and the risk of its impact on the public domain is very low.
+
+\nHowever, nuclear emergencies can still arise due to factors beyond the control of the operating agencies; e.g., human error, system failure, sabotage, earthquake, cyclone, flood, etc. Such failures, even though of very low probability, may lead to an on-site or off-site emergency. To combat this, proper emergency preparedness plans must be in place so that there is minimum avoidable loss of life, livelihood, property and impact on the environment.
+"/>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paytm"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#123456">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_icon"
+        tools:ignore="VectorDrawableCompat" />
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="Enter Your Mobile Number"/>
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_lock"
+        android:hint="@string/Password"/>
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="confirm"
+        android:background="#04ea00"
+        android:text="Confirm"/>
+</LinearLayout>

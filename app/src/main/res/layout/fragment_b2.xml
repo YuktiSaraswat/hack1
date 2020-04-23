@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".B2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do's and Dont's\n\nPlan for Family Biological Disaster Plan\n"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preparation by ensuring Prevention measures:-
+\nPersonal cleanliness - daily bath, don’t grow long nails and wear clean clothes.
+\nHand Hygiene (Wash hands with soap and water before preparing food or eating, after passing stools, coughing or sneezing). The steps of hand washing are:-
+\n(i)Step 1 : Wash palms and fingers
+
+
+\n(i)Step 2 : Wash back of hands.
+
+
+\n(iii)Step 3 :Wash fingers and knuckles
+
+
+\n(iv)Step 4 : Wash thumbs
+
+
+\n(v)Step 5 : Wash fingertips
+
+
+\n(vi)Step 6 : Wash wrists
+
+
+\n\nEat nutritious and balanced food.
+\nImmunisation state should be upto date.
+\nPrevent overcrowding.
+\nGood ventilation.
+\nProtect from hot and cold weather.
+\nHealth Education.
+\nSurveillance.
+\nTake a First Aid and Cardio-Pulmonary Resuscitation (CPR) training.
+\nSubscribe to a Medical Insurance Plan.
+"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\nDIARRHOEAL GROUP OF DISEASES INCLUDING CHOLERA
+\nDo’s:
+
+\nHand Hygiene.
+\nEncourage drinking of water from a safe source or water that has been disinfected (chlorinated). Add bleaching powder in all community wells at regular intervals. Use water pumped out from India Mark II hand pumps, if installed in the village/community.
+\nDrink boiled potable water in an emergency that has been boiled for at least 15 minutes and consumed it the same day.
+\nPromote storage of water in narrow mouthed container.
+\nCook food thoroughly especially meat, poultry, eggs and seafood until it is steaming and eat it while it is still hot.
+\nEnsure cooked meat and poultry is safe and no part of the meat discoloured or foul smelling, or in the case of egg, their shells are not cracked.
+\nIf food is not eaten immediately, reheat cooked until it is steaming hot prior to serving.
+\nKeep food items covered.
+\nIncrease fluid intake as soon as diarrhoea starts by drinking ORS solution or home-made preparation of Table Salt 5 grams (1 teaspoon) in and 20 grams (4 teaspoons) of Sugar dissolved in 1 litre of drinking water.
+\nEncourage banana eating, which provides potassium.
+\nContinue feeding children when they are sick and to continue breastfeeding if the child is being breast fed.
+\nRefer the diarrhoea case to the nearest health facility in case of the following : Child is irritable, restless or lethargic or unconscious: eating or drinking poorly; child has marked thirst; child has fever or blood in stool.
+\n\nDon’ts:
+
+\nDo not drink water from unsafe sources.
+\nDo not eat uncooked food unless it is peeled or shelled.
+\nDo not leave cooked food at room temperature longer than 2 hours.
+\nDo not consume cut fruits from vendors.
+\nDo not defecate in open area.
+\nDo not give access to rats and houseflies in your premises.
+
+\n\nRESPIRATORY GROUP OF DISEASES LIKE TUBERCULOSIS, INFLUENZA, CHICKENPOX, MENINGITIS
+\nDo’s and Don’ts:
+
+\nAvoid close contact with people who are having respiratory illness.
+\nThe sick person should stay at home, and avoid going into the community, school/office, public places for at least 24 hours after symptoms have resolved.
+\nSick persons at home should keep distance from others.
+\nRespiratory Hygiene/Cough Etiquette:-
+\nCover the nose/mouth with a handkerchief/ tissue paper when coughing or sneezing which should be disposed off in dustbins;
+\nPerform hand hygiene (e.g., frequent hand washing with soap and water, alcohol-based hand rub, or antiseptic hand wash) and thoroughly dried preferably using disposable tissue/ paper/ towel after contact after having contact with respiratory secretions and contaminated objects/materials.
+\nTriple layer surgical Mask of standard and certified make should be worn by Suspected/ probable/confirmed cases of influenza or by the care provider in home care settings and close family contacts of such cases undergoing home care.
+\nGet plenty of sleep, be physically active, manage your stress, drink plenty of fluids, and eat nutritious food.
+\nAvoid smoking.
+\nPersons who have difficulty breathing or shortness of breath should seek immediate medical attention and report to the nearby hospital.
+\nIf sick persons must go into the community (e.g., to seek medical care), then they should wear a face mask or use a handkerchief or tissues to cover any coughing and sneezing so as to reduce the risk of spreading the infection in the community.
+\nImmunization status should be upto date as per National Universal Immunisation Programme.
+
+\n\nMOSQUITO BORNE DISEASES LIKE MALARIA, DENGUE, FILARIA, CHIKUNGUNYA
+\nDo’s:
+
+\nFollow Sun-down sleeves-down approach. Wear clothes that cover arms and legs.
+\nPrevent water collections on ground and other places to prevent malaria breeding.
+\nEmpty water containers at least once a week.
+\nRemove water from coolers from time to time.
+\nCover and seal any septic tanks.
+\nUse Mosquito Nets preferably Insecticide Treated Bed Nets (ITBN).
+\nApply insect repellants while sleeping to keep away mosquitoes.
+\nSeek medical advice in case of rashes, mental irritation or unconsciousness..
+\n\nDon’ts:
+
+\nDo not encourage children to wear shorts and half sleeved clothing.
+\nDo not allow water to stagnate.
+\nDo not allow discarded items to accumulate such as tires, tubes, empty coconut shells, household items and objects wherein water may collect.
+\nDo not bathe in village ponds and allow cattle to take bath in the same pond."
+                android:textSize="20sp" />
+             </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

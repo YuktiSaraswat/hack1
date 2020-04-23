@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FF1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+
+    <ImageButton
+        android:id="@+id/i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_mic1" />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\nA flood caused by heavy or excessive rainfall in a short period of time, Flash floods are usually characterized by raging torrents after heavy rains that rip through river beds, urban streets, or mountain canyons sweeping everything before them. They can occur within minutes or a few hours of excessive rainfall. They can also occur even if no rain has fallen, for instance after a levee or dam has failed, or after a sudden release of water by a debris or ice jam. The intensity of the rainfall, the location and distribution of the rainfall, the land use and topography, vegetation types and growth/density, soil type, and soil water-content all determine just how quickly the Flash Flooding may occur, and influence where it may occur.\n\n"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".N2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="4dp">
+
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do's and Dont's\n\n"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The probability of a major accident at nuclear facilities leading to the release of large quantities of radioactivity into the environment is always ensured to be negligibly small. However, even in the event of a major release into the environment, the prompt and effective implementation of countermeasures can reduce the radiological consequences for the public.
+
+\nPreparedness for Nuclear/Radiological Emergencies:
+
+\nThe handling of nuclear emergencies requires coordination among different service groups of the nuclear facility. In the event of potential radiological consequences in the public domain, all the authorities at the three levels, i.e., district, state and central, will play a vital role.
+
+\n\nMajor Responsibilities of Nuclear Power Plant Operators:
+
+\nThis includes the arrangements required to promptly classify an emergency, mitigate the emergency, notify and recommend protective actions off the site consistent with international guidelines, protect those on site, obtain off-site assistance, conduct environmental monitoring of the affected area and assist off-site officials in keeping the public informed.
+
+\n\nMajor Responsibilities of Off-Site Officials:
+
+\nThis includes the arrangements required to promptly implement protective actions and countermeasures in the affected area.
+
+\n\nEmergency Preparedness for Nuclear Power Plants:
+
+\nSince the proper implementation of countermeasures can significantly reduce the consequences of an emergency situation, it is mandatory for all nuclear facilities that there must be a comprehensive emergency preparedness plan. Prior to the issuance of a license for the operation of a nuclear facility, the AERB ensures that the facility has the Emergency Response Manuals for the three main types of emergencies, viz., plant, on-site and off-site, and that the plans are in place to handle these types of emergencies. The operators of nuclear facilities must make an assessment of the type and quantum of release of radioactivity under various accident conditions and the extent to which it can spread into the environment.
+
+\n\nHandling a Plant Emergency:
+
+\nWhen the radiological consequences of an abnormal situation are expected to remain confined to the plant boundary or a section of the plant, it is described as a plant emergency. Nuclear facilities in the country already have the following provisions for the detection, classification, notification and mitigation of any emergency situation:
+
+\ni)Emergency operating procedures for the assessment of an emergency condition and its mitigation.
+
+\nii) Pre-identification of any facility-specific, abnormal situation for classification of a plant and site emergency. \
+
+\niii)Facility-specific, approved nuclear emergency response plans specifying the jobs of all the functionaries who have assigned roles during the emergency.
+
+\niv)Alerting the plant personnel by sounding the emergency siren and making an emergency announcement.
+
+\nv)Adequate means for communicating a notification to the emergency response organisations at the facility, the district and state authorities, CMG of DAE and the central government authorities.
+
+\nvi)Identified assembly locations for plant personnel and casual visitors for their accounting, and assessment of persons trapped in the radiological areas.
+
+\nvii)Formation of rescue teams and activation of a treatment area and decontamination centre.
+
+\nviii)Radiation survey around the plant and outside the plant and site boundaries.
+
+\nix)Assessment of wind speed, wind direction and the affected sector around the nuclear facility.
+
+\nx)Whenever required, the nuclear facility is able to mobilise the services of the ambulance and paramedical staff at its site.
+
+\nxi) Equipment and materials for handling a nuclear emergency are kept at a designated place of the nuclear facility and ERC.
+
+\n\nHandling On-Site Emergencies:
+
+\nAn accidental release of radioactivity or the potential of release of activity extending beyond the plant, but confined to the site boundary, constitutes a site emergency condition. In addition to all the provisions applicable in a plant emergency, the following additional provisions are ensured:
+
+\ni)Extensive radiological survey for an assessment of the radiological conditions within the site boundary of the nuclear facility.
+
+\nii)Suitable prophylaxis to be made available at all assembly areas for administration to plant personnel, in case the situation demands.
+
+\niii)Identification of temporary shelters within the facility/site for shifting plant personnel, in case required.
+
+\niv)Provision of a fleet of vehicles for evacuation of plant personnel from the site to a safer place.
+
+\nv)Provision of fixed and portable contamination monitors to check contaminated personnel/vehicles leaving the site.
+
+\nvi)On sensing the potential of release of radioactivity which can transgress into the public domain, the concerned district authorities are alerted to be on standby for emergency operations in the public domain.
+
+\nvii)Radiological monitoring of the environment in the EPZ (16 km radius around the plant).
+
+\n\nHandling Off-Site Emergencies:
+
+\nOn recognising the potential for an uncontrolled release of radioactivity into the public domain, the concerned district authorities are alerted to be on standby for emergency response operations. In addition to all the provisions applicable in plant emergency and site emergency, the following additional provisions are to be ensured for handling a nuclear emergency in the public domain:
+
+\ni)Pre-identification of plant conditions which can lead to an emergency in the public domain.
+
+\nii)An assessment of the radiological status at the site boundary and in the public domain.
+
+\nFor handling of an off-site emergency condition in an NPP, there is an off-site emergency committee headed by the district magistrate of the concerned district and supported by the district subcommittee, which include chiefs of all public service departments relevant to emergency management in the district and also the Head of the Site Emergency Committee of the nuclear facility for technical advice. This committee takes decisions pertaining to the handling of a nuclear emergency outside the site boundary and ensures implementation of countermeasures such as sheltering, prophylaxis and evacuation and resettlement, including maintenance of law and order and civil amenities. All the activities pertaining to the handling of an off-site emergency are guided and coordinated from a pre-designated emergency response centre located outside the boundary of the nuclear facility. The information and broadcasting department of the district, in association with an authorised information officer, ensures the smooth flow of information to the media to avoid panic and spreading of rumours.
+
+\n\nDO's:
+
+\nGo indoors. Stay inside.
+\nSwitch on the radio/television and look out for public announcements from your local authority.
+\nClose doors/windows.
+\nCover all food, water and consume only such covered items.
+\nIf in the open, cover your face and body with a wet handkerchief, towel, dhoti or sari. Return home, change/remove clothes. Have a complete wash and use fresh clothing.
+\nExtend full cooperation to local authorities and obey their instructions completely -- be it for taking medication, evacuation, etc.
+\nYou must be aware of nuclear radiation hazard. Discuss on Nuclear radiation safety among children and family members, to reduce their fear of radiation.
+\n\nDONT's:
+
+\nDo not panic.
+\nDo not believe in rumours passed on by word of mouth from one person to another.
+\nDo not stay outside/or go outside.
+\nAs far as possible, AVOID water from open wells/ponds; exposed crops and vegetables; food, water or milk from outside.
+\nDo not disobey any instruction of the district or civil defence authorities who would be doing their best to ensure the safety of you, your family and your property. "/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
